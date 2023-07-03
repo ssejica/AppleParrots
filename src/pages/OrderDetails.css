@@ -1,0 +1,46 @@
+.orderdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .orderdetails-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-button {
+    margin-bottom: 20px;
+  }
+  
+  .order-status {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-items {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .order-items th {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .order-items td {
+    padding: 5px;
+  }
+  
+  .order-items td:first-child {
+    width: 30%;
+  }
+  
+  .order-items td:last-child {
+    width: 70%;
+  }
+  
